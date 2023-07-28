@@ -3,6 +3,9 @@
 --------------------------------------------------------------*/
 .site-header {
 
+	border-bottom: 4px double #ececec;
+	background-color: #ffffff;
+
 	.navigation {
 		background-color: $white;
 		margin-bottom: 0;
@@ -17,6 +20,15 @@
 	#navbar {
 		@include transition-time(0.5s);
 
+		.nav-link {
+			font-size: 18px;
+			font-size: calc-rem-value(18);
+			font-weight: 600;
+			color: #413d3d;
+			padding: 35px 17px;
+			text-transform: uppercase;
+		}
+		
 		> ul li a:hover {
 			text-decoration: none;
 			color: $theme-primary-color;
@@ -383,6 +395,7 @@
 
 	.couple-logo {
 		margin-top: 30px;
+		position: fixed;
 
 		@include media-query(991px) {
 			margin-top: 0;
@@ -418,6 +431,7 @@
 
 	.navigation  {
 		border-bottom: 1px solid #ececec;
+		
 
 		&:after {
 			content: "";
@@ -439,6 +453,7 @@
 		color: $theme-primary-color;
 	}
 
+	
 	@include widther(992px) {
 		#navbar > ul > li > a {
 			font-size: 18px;
@@ -482,6 +497,8 @@
 		}
 	}
 }
+
+
 
 
 /*** header style 2 ****/
