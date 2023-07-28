@@ -149,12 +149,14 @@
 
 	.couple-name-merried-text h2 {
 	    font-family: $heading-font;
+		font-weight: 100;
 		font-size: 190px;
 		font-size: calc-rem-value(90);
 		color: $white;
 		margin: 0 0 0.4em;
 		position: relative;
 		z-index: 10;
+		text-transform: uppercase;
 
 		@include media-query(1199px) {
 			font-size: 70px;
@@ -162,7 +164,7 @@
 		}
 
 		@include media-query(991px) {
-			font-size: 55px;
+			font-size: 5px;
 			font-size: calc-rem-value(55);
 		}
 	}

@@ -175,6 +175,7 @@
 	
 	&:before {
 		content: "";
+		
 		@include overlay(transparentize($black, 0.4));
 	}
 
@@ -184,7 +185,8 @@
 		font-size: calc-rem-value(72);
 		color: $white;
 		margin: 0;
-
+		position: sticky;
+		
 		@include media-query(1199px) {
 			font-size: 62px;
 			font-size: calc-rem-value(62);
@@ -214,7 +216,8 @@
 	}
 
 	.count-down-clock {
-		margin-top: 13px;
+		margin-top: 30px;
+		position: sticky;	
 
 		@include media-query(991px) {
 			margin-top: 35px;
@@ -481,6 +484,7 @@
 		font-size: calc-rem-value(75);
 		color: $white;
 		margin: 0;
+		position: sticky;
 
 		@include media-query(1199px) {
 			font-size: 60px;

@@ -2,11 +2,12 @@
 #0.5	footer
 --------------------------------------------------------------*/
 .site-footer {
-	@include background-style("../images/footer-bg.jpg", center center, cover, no-repeat, local);
+	@include background-style("../photos/footer.jpeg", center, cover, no-repeat, local);
 	text-align: center;
 	color: $white;
 	padding: 160px 0;
 	position: relative;
+
 
 	@include media-query(1199px) {
 		padding: 110px 0;
@@ -34,6 +35,7 @@
 		padding: 0 250px;
 		text-transform: capitalize;
 		letter-spacing: 5px;
+		position: sticky;
 
 		@include media-query(1199px) {
 			font-size: 55px;
@@ -54,9 +56,11 @@
 		}
 	}
 
-	h2 + span {
+	span {
+		color: $white;
+		position: sticky;
 		@include media-query(767px) {
-			font-size: 15px;
+			font-size: 25px;
 			font-size: calc-rem-value(15);
 		}
 	}
