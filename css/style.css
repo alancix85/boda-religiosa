@@ -36,7 +36,7 @@ html {
 body {
   font-family: 'Alegreya Sans';
   background-color: #fff;
-  font-size: 18px;
+  font-size: 19px;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
 }
@@ -62,7 +62,7 @@ body {
 }
 
 p {
-  color: #767878;
+  color: #555555;
   line-height: 1.8em;
 }
 
@@ -2299,6 +2299,7 @@ a:focus {
   padding: 50px 55px;
 }
 
+
 @media screen and (min-width: 992px) {
   .wedding-couple-section .details {
     display: table;
@@ -2327,7 +2328,7 @@ a:focus {
 .wedding-couple-section .details h3 {
   font-size: 26px;
   font-size: 1.44444rem;
-  font-weight: 600;
+  font-weight: bold;
   color: #3d3d3d;
   margin: 0 0 0.7em;
   text-transform: uppercase;
