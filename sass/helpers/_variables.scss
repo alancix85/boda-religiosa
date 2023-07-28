@@ -1,13 +1,13 @@
 /*---------------------------
 	Fonts
 ----------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Dosis:400,600,700|Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Dosis|Alegreya+Sans|Fira+Sans');
 
 // fonts
-$base-font: 'Dosis', sans-serif;
-$heading-font: 'Great Vibes', cursive;
+$base-font: 'Dosis';
+$heading-font: 'Fira Sans', 'Alegreya Sans';
 
-$base-font-size: 18;
+$base-font-size: 19;
 
 // color
 $dark-gray: #6e6e6e;
@@ -15,7 +15,7 @@ $lighter-gray: #f9f9f9;
 $gray3: #767878;
 $white: #fff;
 $black: #000;
-$green: #5e9a8e;
+$green: #5e9a6d;
 
 $theme-primary-color: $green;
 $body-bg-color: $white;
