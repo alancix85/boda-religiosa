@@ -2065,7 +2065,7 @@ a:focus {
 #0.5	footer
 --------------------------------------------------------------*/
 .site-footer {
-  background: url("../photos/web-fondos/3.png") center center/cover no-repeat local;
+  background: url("../photos/web-fondos/4.png") center center/cover no-repeat local;
   text-align: center;
   color: #fff;
   padding: 160px 0;
@@ -2467,7 +2467,7 @@ a:focus {
 }
 
 .count-down-section h2 {
-  font-family: 'Alegreya Sans';
+  font-family: 'Dancing Script';
   font-size: 72px;
   font-size: 4rem;
   color: #fff;
@@ -2491,6 +2491,7 @@ a:focus {
 }
 
 .count-down-section h2 > span {
+  font-family: 'Dancing Script';
   font-size: 30px;
   font-size: 1.66667rem;
   display: block;
@@ -2839,7 +2840,7 @@ a:focus {
 }
 
 .cta h2 {
-  font-family: 'Alegreya Sans';
+  font-family: 'Dancing Script';
   font-size: 75px;
   font-size: 4.16667rem;
   color: #fff;
@@ -2870,7 +2871,7 @@ a:focus {
 }
 
 .cta h2 span {
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dancing Script';
   font-size: 30px;
   font-size: 1.66667rem;
   display: block;
