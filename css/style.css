@@ -112,7 +112,7 @@ a:focus {
 }
 
 .section-padding {
-  padding: 65px 0;
+  padding: 55px 0;
 }
 
 @media (max-width: 1199px) {
@@ -4159,5 +4159,18 @@ a:focus {
 .blog-details-content .comment-respond .comment-form .submit-btn button {
   border-radius: 0;
 }
+
+.link-icons-header {
+  padding-top: 2em;
+}
+
+.link-icons h2 {
+  color: #668760;
+  font-size: 0.73em;
+  font-weight: bold;
+  padding: 1.35em;
+  text-transform: uppercase;
+}
+
 
 /*# sourceMappingURL=style.css.map 
